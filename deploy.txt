@@ -1,0 +1,1 @@
+docker cp ./target/testsecurity-1.0-SNAPSHOT.jar java-container-testsecurity:/
