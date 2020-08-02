@@ -3,5 +3,14 @@
 
 <body>
 <span sec:authentication="name">Username</span>
+123
+<div sec:authorize="hasAnyAuthority('CREATOR', 'ADMIN')">
+    <a href="/new">Create New Product</a>
+</div>
+456
+<div sec:authorize="hasAuthority('ADMIN')">
+    <a th:href="@{'/delete/'}">Delete</a>
+</div>
+
 </body>
 </html>
