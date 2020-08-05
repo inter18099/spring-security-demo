@@ -6,7 +6,7 @@ This is a demo project of Spring Boot + Spring security + thymeleaf which shows 
 
 import db.sql into your MySQL database.
 
-### 2, change the username and password of db
+### 2, modify the config of db
 
 modify application.properties file, change the user, password, url and port of db to yours.
 
